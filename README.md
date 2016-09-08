@@ -1,17 +1,17 @@
 # Lab 02 -- Chapter 01
 
 ## Define the followint terms:
-* object, --An Object is an instance of a class.
-* class, --A class is a group of objects that describes the kind of object.
-* instance, --A specific object that is part of a particular class.
-* method, --Operations that can be used to manipulate an object.
-* signature, --The name of a method and the parameter types found in its header.
-* parameter, --Additional values that some methods require.
+* object, --An Object is an instance (state or behavior) of a class.
+* class, --a Blueprint (code) that defines how to create an object.
+* instance, --A specific realization of any object.
+* method, --A collection of statements, in a class, that can be used to manipulate (mutators) or access information (accessor) from an object of that class. (Behaves like a function)
+* signature, --The name of a method and the parameter types found in its header. (Ex. void changeSize(Box box) changes the size of instance "box" of class "Box" and does not give an output)
+* parameter, --An input of the method. (Ex. "box" is the parameter in the example above.)
 * type, --A definition of what kinds of values the parameters can take.
 * state, --The set of values of all attributes defining an object.
-* source code, --Text that defines the details of a class.
-* return value, --A result value that is sent by certain types of code after said code is run.
-* compiler --Something that translates code into something the computer can read.
+* source code, --A collection of commands that complies to create an executable program.
+* return value, --Output of a method.
+* compiler --Something that translates the source code into something the computer can read.
 
 ## In Chapter 1 we have mentioned the data types int and String. Java has more predefined data types. Find out what they are and what they are used for. To do this, you can check Appendix B, or look it up in another Java book or in an online Java language manual. One such manual is at [http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html](http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
 -- Additional primitive types in Java include byte (which is a byte-sized integer, or 8-bit), short (which is a short integer, or 16-bit), long (which is a long integer, or 64-bit), float (a single-precision floating point), double (a double-precision floating point), char (a single character), and boolean (a boolean value; true or false).
